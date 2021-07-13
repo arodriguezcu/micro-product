@@ -1,4 +1,4 @@
 FROM openjdk:8-alpine
-COPY "./target/product-service-0.0.1-SNAPSHOT.jar" "appproduct-service.jar"
+COPY "./target/micro-product-0.0.1-SNAPSHOT.jar" "appmicro-product.jar"
 EXPOSE 8091
-ENTRYPOINT ["java","-jar","appproduct-service.jar"]
+ENTRYPOINT ["java","-jar","appmicro-product.jar"]
